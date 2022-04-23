@@ -26,10 +26,10 @@ char FX_R_CMD = 'm';   // Bottom Right 2U Key Command
 
 char BT_ST_CMD = 'y';  // Start Button Key Command
 
-char ENC_LL_CMD = 'w'; // Left Encoder Left Turn Command
-char ENC_LR_CMD = 'e'; // Left Encoder Right Turn Command
-char ENC_RL_CMD = 'o'; // Right Encoder Left Turn Command
-char ENC_RR_CMD = 'p'; // Right Encoder Right Turn Command
+char ENC_LL_CMD = KEY_DOWN_ARROW; // Left Encoder Left Turn Command
+char ENC_LR_CMD = KEY_UP_ARROW; // Left Encoder Right Turn Command
+char ENC_RL_CMD = KEY_LEFT_ARROW; // Right Encoder Left Turn Command
+char ENC_RR_CMD = KEY_RIGHT_ARROW; // Right Encoder Right Turn Command
 
 char ENC_BTNL_CMD = KEY_LEFT_ARROW;   // Left Encoder Button Command
 char ENC_BTNR_CMD = KEY_RIGHT_ARROW;  // Right Encoder Button Command
